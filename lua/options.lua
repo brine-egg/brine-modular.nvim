@@ -62,4 +62,7 @@ vim.opt.scrolloff = 10
 -- Hide characters in lines outside the buffer
 vim.wo.fillchars = 'eob: '
 
+-- Make text cursor blink
+vim.o.guicursor = 'a:blinkwait500-blinkoff400-blinkon250'
+
 -- vim: ts=2 sts=2 sw=2 et
