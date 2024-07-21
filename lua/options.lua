@@ -59,9 +59,6 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
--- Enable linebreak
-vim.opt.linebreak = true
-
 -- Hide characters in lines outside the buffer
 vim.wo.fillchars = 'eob: '
 
