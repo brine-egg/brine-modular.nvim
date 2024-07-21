@@ -1,8 +1,5 @@
--- Use Catppuccin as editor theme
-
 return {
-
-  {
+  { -- Use Catppuccin as editor theme
     'catppuccin/nvim',
     name = 'catppuccin',
     priority = 1000,
