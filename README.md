@@ -4,7 +4,7 @@
 
 *Personal neovim configuration based of off [kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim), which is a multi file fork of [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim).*
 
-It is **HIGHLY** recommended that you use of the the repos mentioned above as a template for your configuration, rather than using the configurations in this repo which were made based on **MY** own preferences.
+It is **HIGHLY** recommended that you use one of the repos mentioned above as a template for your configuration, rather than using the configurations in this repo which were made based on **MY** own preferences.
 
 # Installation
 
