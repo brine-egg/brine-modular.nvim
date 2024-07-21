@@ -2,17 +2,11 @@
 
 ## Introduction
 
-*This is a fork of [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) that moves from a single file to a multi file configuration.*
+*Personal neovim configuration based of off [kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim), which is a multi file fork of [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim).*
 
-A starting point for Neovim that is:
+It is **HIGHLY** recommended that you use of the the repos mentioned above as a template for your configuration, rather than using the configurations in this repo which were made based on **MY** own preferences.
 
-* Small
-* Modular
-* Completely Documented
-
-**NOT** a Neovim distribution, but instead a starting point for your configuration.
-
-## Installation
+# Installation
 
 ### Install Neovim
 
