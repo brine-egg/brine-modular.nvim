@@ -17,6 +17,15 @@ return {
       -- - sr)'  - [S]urround [R]eplace [)] [']
       require('mini.surround').setup()
 
+      -- Add animations to common Neovim actions
+      require('mini.animate').setup()
+
+      -- Add pop-up notifications
+      require('mini.notify').setup()
+
+      -- Add a tabline
+      require('mini.tabline').setup()
+
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
       --  and try some other statusline plugin
