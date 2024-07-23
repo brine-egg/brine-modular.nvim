@@ -1,5 +1,5 @@
 return {
-  {
+  { -- Install flash.nvim for fast Vim motions
     'folke/flash.nvim',
     event = 'VeryLazy',
     ---@type Flash.Config
