@@ -34,6 +34,14 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
+-- Keybinds for switching between tabs
+vim.keymap.set('n', '[t', vim.cmd.tabp, { desc = 'Switch to previous tab' })
+vim.keymap.set('n', ']t', vim.cmd.tabn, { desc = 'Switch to next tab' })
+
+-- Keybinds for switching between buffers
+vim.keymap.set('n', '[b', vim.cmd.bp, { desc = 'Switch to previous buffer' })
+vim.keymap.set('n', ']b', vim.cmd.bn, { desc = 'Switch to next buffer' })
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
