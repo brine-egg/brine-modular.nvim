@@ -65,4 +65,7 @@ vim.wo.fillchars = 'eob: '
 -- Make text cursor blink
 vim.o.guicursor = 'n-v:block,i-c-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkoff500-blinkon250-Cursor/lCursor,sm:block-blinkoff200-blinkon200'
 
+-- Enable 24bit colour support
+vim.opt.termguicolors = true
+
 -- vim: ts=2 sts=2 sw=2 et
