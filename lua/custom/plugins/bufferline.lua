@@ -9,7 +9,7 @@ return {
         style_preset = require('bufferline').style_preset.minimal,
         truncate_names = false,
         max_name_length = 24,
-        tab_size = 24,
+        tab_size = 8,
       },
     }
   end,
