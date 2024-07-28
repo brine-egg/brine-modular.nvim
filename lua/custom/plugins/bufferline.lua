@@ -12,5 +12,6 @@ return {
         tab_size = 8,
       },
     }
+    vim.keymap.set('n', 'gs', '<CMD>BufferLinePick<CR>', { desc = 'Open buffer selector' })
   end,
 }

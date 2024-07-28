@@ -34,17 +34,13 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
--- Open parent directory using oil.nvim
-vim.keymap.set('n', '-', '<CMD>Oil<CR>', { desc = 'Open parent directory' })
-
--- Keybinds for switching between tabs
+-- Keybinds for cycling through tabs
 vim.keymap.set('n', '[t', vim.cmd.tabprevious, { desc = 'Go to previous tab page' })
 vim.keymap.set('n', ']t', vim.cmd.tabnext, { desc = 'Go to next tab page' })
 
--- Keybinds for switching between buffers
+-- Keybinds for cycling through buffers
 vim.keymap.set('n', '[b', vim.cmd.bprevious, { desc = 'Go to previous buffer' })
 vim.keymap.set('n', ']b', vim.cmd.bnext, { desc = 'Go to next buffer' })
-vim.keymap.set('n', 'gs', '<CMD>BufferLinePick<CR>', { desc = 'Open buffer selector' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
