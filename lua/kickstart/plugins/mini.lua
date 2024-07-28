@@ -27,9 +27,6 @@ return {
         },
       }
 
-      -- Add animations to common Neovim actions
-      require('mini.animate').setup()
-
       -- Pop-up file manager
       require('mini.files').setup {
         windows = {
