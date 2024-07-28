@@ -12,10 +12,20 @@ return {
 
       -- Add/delete/replace surroundings (brackets, quotes, etc.)
       --
-      -- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
-      -- - sd'   - [S]urround [D]elete [']quotes
-      -- - sr)'  - [S]urround [R]eplace [)] [']
-      require('mini.surround').setup()
+      -- - <C-s>aiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
+      -- - <C-s>d'   - [S]urround [D]elete [']quotes
+      -- - <C-s>r)'  - [S]urround [R]eplace [)] [']
+      require('mini.surround').setup {
+        mappings = {
+          add = '<C-s>a', -- Add surrounding in Normal and Visual modes
+          delete = '<C-s>d', -- Delete surrounding
+          find = '<C-s>f', -- Find surrounding (to the right)
+          find_left = '<C-s>F', -- Find surrounding (to the left)
+          highlight = '<C-s>h', -- Highlight surrounding
+          replace = '<C-s>r', -- Replace surrounding
+          update_n_lines = '<C-s>n', -- Update `n_lines`
+        },
+      }
 
       -- Add animations to common Neovim actions
       require('mini.animate').setup()
