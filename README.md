@@ -6,8 +6,8 @@
 which is a multi file fork of [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim).*
 
 As the configurations in this repo are made solely based on my **MY** personal preferences, 
-I **STRONGLY** recommend that you use one of the repos listsed above instead, as they were made to
-serve as a baseline for anyone's personal configurations.
+I **STRONGLY** recommend that you use one of the repos listsed above instead, as they were 
+made to serve as a baseline for anyone's personal configurations.
 
 # Installation
 
