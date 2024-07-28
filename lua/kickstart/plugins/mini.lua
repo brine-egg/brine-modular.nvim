@@ -39,6 +39,8 @@ return {
           width_focus = 30,
           width_preview = 30,
         },
+        -- Keybind to quickly open the file manager window
+        vim.keymap.set('n', '<leader>m', '<cmd>lua MiniFiles.open()<cr>', { desc = 'Open file [M]anager' }),
       }
 
       -- Simple and easy statusline.
