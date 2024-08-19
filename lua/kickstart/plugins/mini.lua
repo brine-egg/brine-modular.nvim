@@ -40,6 +40,9 @@ return {
         vim.keymap.set('n', '<leader>m', '<cmd>lua MiniFiles.open()<cr>', { desc = 'Open file [M]anager' }),
       }
 
+      -- Startup screen
+      require('mini.starter').setup()
+
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
       --  and try some other statusline plugin
